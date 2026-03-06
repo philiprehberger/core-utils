@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/core-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pure utility functions - formatting, pagination, slugs, class merging, and more",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -25,7 +25,8 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "node --test src/__tests__/index.test.mjs"
   },
   "peerDependencies": {
     "clsx": ">=2.0.0",
@@ -53,7 +54,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philiprehberger/core-utils"
+    "url": "git+https://github.com/philiprehberger/core-utils.git"
   },
+  "homepage": "https://github.com/philiprehberger/core-utils#readme",
+  "bugs": { "url": "https://github.com/philiprehberger/core-utils/issues" },
+  "author": "Philip Rehberger",
+  "engines": { "node": ">=18.0.0" },
   "sideEffects": false
 }
