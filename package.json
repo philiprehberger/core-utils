@@ -1,0 +1,59 @@
+{
+  "name": "@philiprehberger/core-utils",
+  "version": "0.1.0",
+  "description": "Pure utility functions - formatting, pagination, slugs, class merging, and more",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "clsx": ">=2.0.0",
+    "tailwind-merge": ">=2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "clsx": { "optional": true },
+    "tailwind-merge": { "optional": true }
+  },
+  "devDependencies": {
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "utils",
+    "format",
+    "currency",
+    "pagination",
+    "slug",
+    "tailwind",
+    "cn"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philiprehberger/core-utils"
+  },
+  "sideEffects": false
+}
