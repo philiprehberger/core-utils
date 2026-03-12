@@ -1,11 +1,11 @@
-# @philiprehberger/core-utils
+# @philiprehberger/ts-core-utils
 
 Pure utility functions for formatting, pagination, slugs, class merging, and more.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/core-utils
+npm install @philiprehberger/ts-core-utils
 # Optional peer deps (only needed for cn()):
 npm install clsx tailwind-merge
 ```
@@ -15,7 +15,7 @@ npm install clsx tailwind-merge
 ### Formatting
 
 ```ts
-import { formatNumber, formatCurrency, formatPercentage, formatCompact } from '@philiprehberger/core-utils';
+import { formatNumber, formatCurrency, formatPercentage, formatCompact } from '@philiprehberger/ts-core-utils';
 
 formatNumber(1234.56)        // "1,235"
 formatNumber(1234.56, 2)     // "1,234.56"
@@ -28,7 +28,7 @@ formatCompact(1234567)       // "1.2M"
 ### Class Merging (Tailwind)
 
 ```ts
-import { cn } from '@philiprehberger/core-utils';
+import { cn } from '@philiprehberger/ts-core-utils';
 
 cn('px-2 py-1', 'px-4')                    // "py-1 px-4"
 cn('text-red-500', isActive && 'text-blue') // conditional classes
@@ -37,7 +37,7 @@ cn('text-red-500', isActive && 'text-blue') // conditional classes
 ### Slugs
 
 ```ts
-import { generateSlug, generateUniqueSlug, isValidSlug } from '@philiprehberger/core-utils';
+import { generateSlug, generateUniqueSlug, isValidSlug } from '@philiprehberger/ts-core-utils';
 
 generateSlug("Hello World!")  // "hello-world"
 isValidSlug("hello-world")   // true
@@ -50,7 +50,7 @@ const slug = await generateUniqueSlug("My Product", async (s) => {
 ### Pagination
 
 ```ts
-import { paginateArray, calculatePagination } from '@philiprehberger/core-utils';
+import { paginateArray, calculatePagination } from '@philiprehberger/ts-core-utils';
 
 const result = paginateArray(items, 2, 10);
 // { data: [...], pagination: { page: 2, limit: 10, total: 100, totalPages: 10, ... } }
@@ -62,7 +62,7 @@ const { skip, take } = calculatePagination(2, 10);
 ### Serialization
 
 ```ts
-import { serializeObject, deserializeObject } from '@philiprehberger/core-utils';
+import { serializeObject, deserializeObject } from '@philiprehberger/ts-core-utils';
 
 const serialized = serializeObject({ createdAt: new Date() });
 // { createdAt: "2026-03-06T..." }
@@ -71,7 +71,7 @@ const serialized = serializeObject({ createdAt: new Date() });
 ### Misc
 
 ```ts
-import { truncate, sleep } from '@philiprehberger/core-utils';
+import { truncate, sleep } from '@philiprehberger/ts-core-utils';
 
 truncate('Hello World', 5)  // "Hello..."
 await sleep(1000)           // wait 1 second

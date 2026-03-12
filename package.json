@@ -1,5 +1,5 @@
 {
-  "name": "@philiprehberger/core-utils",
+  "name": "@philiprehberger/ts-core-utils",
   "version": "0.2.0",
   "description": "Pure utility functions - formatting, pagination, slugs, class merging, and more",
   "type": "module",
@@ -54,10 +54,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/philiprehberger/core-utils.git"
+    "url": "git+https://github.com/philiprehberger/ts-core-utils.git"
   },
-  "homepage": "https://github.com/philiprehberger/core-utils#readme",
-  "bugs": { "url": "https://github.com/philiprehberger/core-utils/issues" },
+  "homepage": "https://github.com/philiprehberger/ts-core-utils#readme",
+  "bugs": { "url": "https://github.com/philiprehberger/ts-core-utils/issues" },
   "author": "Philip Rehberger",
   "engines": { "node": ">=18.0.0" },
   "sideEffects": false
