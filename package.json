@@ -1,6 +1,6 @@
 {
-  "name": "@philiprehberger/ts-core-utils",
-  "version": "0.2.1",
+  "name": "@philiprehberger/core-utils",
+  "version": "0.2.2",
   "description": "Pure utility functions - formatting, pagination, slugs, class merging, and more",
   "type": "module",
   "main": "./dist/index.cjs",
