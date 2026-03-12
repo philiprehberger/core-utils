@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.0
+
+- Expand test suite with behavioral tests (38 tests covering formatting, slugs, pagination, serialization)
+- Add CI workflow for push/PR testing
+- Add API reference tables to README organized by module
+
 ## 0.1.1
 
 - Add author, homepage, bugs, engines fields to package.json
