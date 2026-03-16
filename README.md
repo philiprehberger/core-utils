@@ -1,5 +1,9 @@
 # @philiprehberger/core-utils
 
+[![CI](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@philiprehberger/core-utils.svg)](https://www.npmjs.com/package/@philiprehberger/core-utils)
+[![License](https://img.shields.io/github/license/philiprehberger/core-utils)](LICENSE)
+
 Pure utility functions for formatting, pagination, slugs, class merging, and more.
 
 ## Installation
