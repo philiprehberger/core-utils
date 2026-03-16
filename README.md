@@ -1,6 +1,6 @@
 # @philiprehberger/core-utils
 
-[![CI](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/core-utils/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/core-utils/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/core-utils.svg)](https://www.npmjs.com/package/@philiprehberger/core-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/core-utils)](LICENSE)
 
@@ -130,6 +130,15 @@ await sleep(1000)           // wait 1 second
 | Function | Signature | Description |
 |----------|-----------|-------------|
 | `sleep` | `(ms: number) => Promise<void>` | Delay execution. |
+
+
+## Development
+
+```bash
+npm install
+npm run build
+npm test
+```
 
 ## License
 
