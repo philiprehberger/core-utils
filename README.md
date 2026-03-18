@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/core-utils.svg)](https://www.npmjs.com/package/@philiprehberger/core-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/core-utils)](LICENSE)
 
-Pure utility functions for formatting, pagination, slugs, class merging, and more.
+Pure utility functions for formatting, pagination, slugs, class merging, and more
 
 ## Installation
 
