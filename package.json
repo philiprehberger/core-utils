@@ -1,6 +1,6 @@
 {
   "name": "@philiprehberger/core-utils",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Pure utility functions - formatting, pagination, slugs, class merging, and more",
   "type": "module",
   "main": "./dist/index.cjs",
