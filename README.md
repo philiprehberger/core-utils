@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-core-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-core-utils/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/core-utils.svg)](https://www.npmjs.com/package/@philiprehberger/core-utils)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-core-utils)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Pure utility functions for formatting, pagination, slugs, class merging, and more
 
