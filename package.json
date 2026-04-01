@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "clsx": "^2.1.0",
-    "tailwind-merge": "^2.0.0",
+    "tailwind-merge": "^3.5.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
