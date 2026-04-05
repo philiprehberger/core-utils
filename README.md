@@ -1,8 +1,8 @@
 # @philiprehberger/core-utils
 
-[![CI](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/core-utils/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/ts-core-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-core-utils/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/core-utils.svg)](https://www.npmjs.com/package/@philiprehberger/core-utils)
-[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/core-utils)](https://github.com/philiprehberger/core-utils/commits/main)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/ts-core-utils)](https://github.com/philiprehberger/ts-core-utils/commits/main)
 
 Pure utility functions for formatting, pagination, slugs, class merging, and more
 
@@ -100,11 +100,11 @@ npm test
 
 If you find this project useful:
 
-⭐ [Star the repo](https://github.com/philiprehberger/core-utils)
+⭐ [Star the repo](https://github.com/philiprehberger/ts-core-utils)
 
-🐛 [Report issues](https://github.com/philiprehberger/core-utils/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+🐛 [Report issues](https://github.com/philiprehberger/ts-core-utils/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
-💡 [Suggest features](https://github.com/philiprehberger/core-utils/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+💡 [Suggest features](https://github.com/philiprehberger/ts-core-utils/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
 
 ❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
 

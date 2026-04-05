@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.9
+
+- Fix README GitHub URLs to use correct repo name (ts-core-utils)
+
 ## 0.2.8
 
 - Standardize README to 3-badge format with emoji Support section
